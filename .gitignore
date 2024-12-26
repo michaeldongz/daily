@@ -1,0 +1,31 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# Package Files #
+###################
+*.jar
+*.war
+*.ear
+
+# Maven repository and temporary files
+.m2/repository/
+target/
+
+# IntelliJ IDEA files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse files
+.metadata/
+bin/
+.classpath
+.project
+.settings/
+
+# OS X files
+.DS_Store
