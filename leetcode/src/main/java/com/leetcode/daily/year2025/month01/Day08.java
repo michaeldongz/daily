@@ -15,7 +15,7 @@ public class Day08 {
 
     // 优质解法
     // 1 ms , 击败 85.37%        时间复杂度：O(10) 十次循环
-    // 41.00 MB， 击败 69.31%    空间复杂度：O(1)
+    // 41.00 MB， 击败 69.3q1%    空间复杂度：O(1)
     public static String largestGoodInteger(String num) {
         String result = "";
 
