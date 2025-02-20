@@ -53,38 +53,7 @@ public class SingleLinkedListDemo {
         System.out.println("链表1");
         singleLinkedList.list();
 
-        HeroNode heroNode5 = new HeroNode(4, "公孙胜", "入云龙");
-        HeroNode heroNode6 = new HeroNode(5, "关胜", "大刀");
-        HeroNode heroNode7 = new HeroNode(7, "秦明", "霹雳火");
-
-        SingleLinkedList singleLinkedList2 = new SingleLinkedList();
-        singleLinkedList2.add(heroNode5);
-        singleLinkedList2.add(heroNode6);
-        singleLinkedList2.add(heroNode7);
-
-        System.out.println("链表2");
-        singleLinkedList2.list();
-
-        System.out.println("合并后");
-//        merge(singleLinkedList, singleLinkedList2);
-        singleLinkedList.list();
     }
-
-    // 合并两个有序的单链表，合并之后的链表依然有序
-//    public static void merge(SingleLinkedList singleLinkedList1, SingleLinkedList singleLinkedList2) {
-//        HeroNode cur = singleLinkedList1.getHead().next;
-//        while (singleLinkedList1 != null && l2 != null) {
-//            if (singleLinkedList1.get < l2.value) {
-//                current.next = l1;
-//                l1 = l1.next;
-//            } else {
-//                current.next = l2;
-//                l2 = l2.next;
-//            }
-//            current = current.next;
-//        }
-//
-//    }
 
     // 获取单链表的节点的个数(如果是带头节点的链表，需求不统计头节点)
     public static int getLength(HeroNode head) {
